@@ -1,0 +1,89 @@
+body {
+    background-image: url(../Other/backiee-91606.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    direction: rtl;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.rw {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.697);
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 5px rgb(0, 0, 0);
+}
+
+.search {
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    height: 39px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(245, 245, 245, 0.4);
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.3);
+}
+
+.search:hover {
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.6);
+}
+
+#search-btn {
+    width: 20%;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0px;
+    border-radius: 0px 25px 25px 0px;
+}
+
+#search-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#search-input {
+    width: 80%;
+    height: 34px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px 0px 0px 25px;
+    outline: 0px;
+    border-right: 1px solid rgba(245, 245, 245, 0.719);
+    line-height: 35px;
+    color: rgba(245, 245, 245, 0.719);
+    font-size: large;
+}
+
+#search-input:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.show {
+    font-size: medium;
+    color: rgba(245, 245, 245, 0.978);
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    font-weight: 900;
+    font-size: 130%;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.4);
+    display: none;
+}
+
+#city-name {
+    font-size: 200%;
+}
+
+#city-temperature {
+    font-size: 180%;
+}

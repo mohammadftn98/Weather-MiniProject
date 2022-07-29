@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather</title>
+    <link rel="stylesheet" href="../CSS/CSS.css">
+    <link rel="stylesheet" href="../Other/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row rw">
+            <div class="box col-sm-5">
+                <div class="search">
+                    <button id="search-btn"><img src="../Other/1541695.png" alt="Search LOGO" width="20px" height="20px"></button>
+                    <input type="text" id="search-input" placeholder="نام شهر">
+                </div>
+                <div class="show" id="show-box">
+                    <p id="city-name">آب و هوا در تهران</p>
+                    <p id="city-temperature">℃42</p>
+                    <p id="city-wheather">آفتابی</p>
+                    <p id="city-humidity">25%</p>
+                    <p id="city-windSpeed">30km/h</p>
+                </div>
+                <div class="show" id="alert-box">
+                    <p id="alerts"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/JavaScript.js"></script>
+</body>
+
+</html>
